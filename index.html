@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byeongjun Kwon | Computer Vision Researcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo"><a href="#intro">Byeongjun Kwon</a></h1>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="intro" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>My Research Topics: <span class="highlight">Depth Estimation</span> and <span class="highlight">Dynamic 3D World Modeling</span></h2>
+                    <p>Computer Vision Researcher | Ph.D Student</p>
+                    <div class="hero-btns">
+                        <a href="#research" class="btn btn-primary">Explore My Research</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Minh-Quan" class="profile-img">
+                    <div class="decoration-circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a Ph.D. student in Electrical Engineering at <a href="https://www.viclab.kaist.ac.kr/">VIC Lab</a>, Advanced Institute of Science & Technology (KAIST), under the supervision of <a href="https://scholar.google.com/citations?user=bGXte_4AAAAJ&hl=vi&oi=ao"> Prof. Munchurl Kim</a>.</p>
+                    <p>My current research focuses on computer vision, depth estimation, neural rendering, and Dynamic 3D world reconstruction from images and videos.</p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                <strong>Ph.D. in Electrical Engineering</strong>
+                                <span>KAIST, Feb.2024-Present</span>
+                            </li>
+                            <li>
+                                <strong>M.S. in Electrical Engineering</strong>
+                                <span>KAIST, Mar.2022-Feb.2024</span>
+                            </li>
+                            <li>
+                                <strong>B.S. in Electrical Engineering</strong>
+                                <span>Yonsei University, Mar.2016-Feb.2022 <br>(including mandatory military service, Jul. 2017 – Mar. 2019)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3>Research Interests</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">Depth Estimation</span>
+                        <span class="skill-tag">2D/3D Reconstruction</span>
+                        <span class="skill-tag">Neural Rendering</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Computer Graphics</span>
+                    </div>
+                    <h3>Technical Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Pytorch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="section research">
+        <div class="container">
+            <h2 class="section-title">Research Projects</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-image">
+                        <img src="images/one_look_is_enough.png" alt="One Look is Enough">
+                        <div class="research-overlay">
+                            <a href="https://kaist-viclab.github.io/One-Look-is-Enough_site/" class="research-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="research-content">
+                        <h3>One Look is Enough: Seamless Patchwise Refinement for Zero-Shot Monocular Depth Estimation on High-Resolution Images</h3>
+                        <p>Proposes efficient and generalizable tile-based depth refinement framework for zero-shot monocular depth estimation on high-resolution images.</p>
+                        <div class="research-meta">
+                            <span class="research-year">ICCV 2025</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="section publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publication-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="conference">Conference Papers</button>
+                <!-- <button class="filter-btn" data-filter="journal">Journal Articles</button>
+                <button class="filter-btn" data-filter="workshop">Under Review</button> -->
+            </div>
+            <div class="publication-list">
+                <div class="publication-item" data-category="conference">
+                    <div class="publication-badge conference-badge">Conference</div>
+                    <div class="publication-content">
+                        <h3>One Look is Enough: Seamless Patchwise Refinement for Zero-Shot Monocular Depth Estimation on High-Resolution Images</h3>
+                        <p class="publication-authors"><b>Byeongjun Kwon</b>, Munchurl Kim</p>
+                        <p class="publication-meta"><b>ICCV 2025</b></p>
+                        <div class="publication-actions">
+                            <a href="https://arxiv.org/abs/2503.22351" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-file-alt"></i> Paper
+                            </a>
+                            <a href="https://kaist-viclab.github.io/One-Look-is-Enough_site/" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Project Page
+                            </a>
+                            <a href="https://github.com/KAIST-VICLab/One-Look-is-Enough" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="publication-list">
+                <div class="publication-item" data-category="conference">
+                    <div class="publication-badge conference-badge">Conference</div>
+                    <div class="publication-content">
+                        <h3>From-Ground-To-Objects: Coarse-to-Fine Self-supervised Monocular Depth Estimation of Dynamic Objects with Ground Contact Prior </h3>
+                        <p class="publication-authors">Jaeho moon, Juan Luis Gonzalez Bello, <b>Byeongjun Kwon</b>, Munchurl Kim</p>
+                        <p class="publication-meta"><b>CVPR 2024</b></p>
+                        <div class="publication-actions">
+                            <a href="https://arxiv.org/abs/2312.10118" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-file-alt"></i> Paper
+                            </a>
+                            <a href="https://kaist-viclab.github.io/From_Ground_To_Objects_site/" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Project Page
+                            </a>
+                            <a href="https://github.com/KAIST-VICLab/From_Ground_To_Objects" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="publication-more">
+                <button class="btn btn-secondary" id="load-more-pubs">Load More Publications</button>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>byeongjun.kwon@kaist.ac.kr</p>
+                        <div class="social-links">
+                            <a href="https://scholar.google.co.kr/citations?user=gZRpDIkAAAAJ&hl=ko" class="social-link"><i class="fab fa-google"></i></a>
+                            <a href="https://github.com/Byeongjun1022" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/byeongjun-kwon-kaist" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://drive.google.com/file/d/1OApbu_yJATaK3vOGul3x_Bs592bw8FW0/view?usp=sharing" class="social-link"><i class="fab fa-cv"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Laboratory</h3>
+                        <p>N24 Building<br>Room 1106<br>KAIST</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Thanks to <a style="color:aliceblue" href="https://quan5609.github.io/">Minh-Quan Viet Bui</a> for providing <a style="color:aliceblue" href="https://github.com/quan5609/quan5609.github.io">source code</a>.</p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
